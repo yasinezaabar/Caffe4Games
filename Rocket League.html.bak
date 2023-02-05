@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+    <title>Rocket League</title>
+    <link rel="icon" href="logo.jpg">
+  </head>
+  <body>
+    <div id="animated-bg"> </div>
+    <style>
+  #animated-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("animated-bg.gif");
+    background-repeat: repeat;
+    background-size: cover;
+    z-index: -1;
+  }
+</style> <div id="preloader" style="text-align: center;">
+      <dl>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <dd> <img src="preloader.gif" alt="Loading..."> </dd>
+      </dl>
+    </div>
+    <style>
+  #preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    z-index: 99999;
+  }
+</style> <script>
+  window.onload = function() {
+    setTimeout(function(){
+        var preloader = document.getElementById("preloader");
+        preloader.style.display = "none";
+    },2000);
+  }
+</script> <div style="text-align: right"><a href="file:C:/Users/user/Desktop/web1/Caffe4Games.html"><img
+
+          src="logo.jpg" alt="" style="width: 37px; height: 37px;"></a>-<input placeholder="Search.."
+
+        type="text"></div>
+    <h1 style="text-align: center;"> <span style="color: red;">Rocket League</span>
+      <br>
+      <div style="text-align: center;"><img src="gm2.jpg" alt="" style="width: 787px; height: 400px;"></div>
+    </h1>
+    <h2 style="text-align: center;"> <span style="color: #33cc00;">Rocket
+        League is a vehicular soccer video game developed and published by
+        Psyonix. The game was first released for Windows and PlayStation 4 in
+        July 2015, with ports for Xbox One and Nintendo Switch being released
+        later on. In June 2016, 505 Games began distributing a physical retail
+        version for PlayStation 4 and Xbox One, with Warner Bros. Interactive
+        Entertainment taking over those duties by the end of 2017. Versions for
+        macOS and Linux were also released in 2016, but support for their online
+        services were dropped in 2020. The game went free-to-play in September
+        2020.</span> </h2>
+    <br>
+    <div style="text-align: center;"><a href="https://www.rocketleague.com/fr/"><img
+
+          src="download.png" alt="" style="width: 259px; height: 194px;"></a> </div>
+    <p><span style="color: #33cc00;">© 2023 Caffe4Games.com </span></p>
+    <p><a href="mailto:ctfo783@gmail.com"><span style="color: #33cc00;">Contact
+          Us: </span></a></p>
+    <p><br>
+    </p>
+  </body>
+</html>
